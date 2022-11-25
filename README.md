@@ -1,6 +1,8 @@
 # pytorch-quaternion-geodesic-loss
 pytorch quaternion geodesic loss
 
+This criterion computes the difference between two quaternion in the manner of degrees (rad). The equation is derived from [here](http://www.boris-belousov.net/2016/12/01/quat-dist/#using-quaternions).
+
 ```python
 import torch
 from geodesic_loss import GeodesicLoss
